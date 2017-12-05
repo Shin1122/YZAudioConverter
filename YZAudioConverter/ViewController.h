@@ -9,6 +9,16 @@
 #import <Cocoa/Cocoa.h>
 
 @interface ViewController : NSViewController
+@property (weak) IBOutlet NSButton *chooseSourceBtn;
+@property (weak) IBOutlet NSButton *chooseOutBtn;
+@property (weak) IBOutlet NSButton *ctartConvertBtn;
+
+////////////////
+@property (weak) IBOutlet NSTextField *sourcePathText;
+@property (weak) IBOutlet NSTextField *outPathText;
+@property (weak) IBOutlet NSTextField *infomationText;
+
+@property (weak) IBOutlet NSPopUpButton *chooseFormat;
 
 
 @end
