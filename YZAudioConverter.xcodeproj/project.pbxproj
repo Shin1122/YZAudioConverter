@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54FF48F41FD6C6BD00600D21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF48F31FD6C6BD00600D21 /* AppDelegate.m */; };
+		54FF48F71FD6C6BD00600D21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF48F61FD6C6BD00600D21 /* ViewController.m */; };
+		54FF48F91FD6C6BD00600D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54FF48F81FD6C6BD00600D21 /* Assets.xcassets */; };
+		54FF48FC1FD6C6BD00600D21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54FF48FA1FD6C6BD00600D21 /* Main.storyboard */; };
+		54FF48FF1FD6C6BD00600D21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF48FE1FD6C6BD00600D21 /* main.m */; };
+		54FF490A1FD6C6BD00600D21 /* YZAudioConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF49091FD6C6BD00600D21 /* YZAudioConverterTests.m */; };
+		54FF49151FD6C6BD00600D21 /* YZAudioConverterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FF49141FD6C6BD00600D21 /* YZAudioConverterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54FF49061FD6C6BD00600D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54FF48E71FD6C6BD00600D21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54FF48EE1FD6C6BD00600D21;
+			remoteInfo = YZAudioConverter;
+		};
+		54FF49111FD6C6BD00600D21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54FF48E71FD6C6BD00600D21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54FF48EE1FD6C6BD00600D21;
+			remoteInfo = YZAudioConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54FF48EF1FD6C6BD00600D21 /* YZAudioConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZAudioConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FF48F21FD6C6BD00600D21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54FF48F31FD6C6BD00600D21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54FF48F51FD6C6BD00600D21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54FF48F61FD6C6BD00600D21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54FF48F81FD6C6BD00600D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54FF48FB1FD6C6BD00600D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54FF48FD1FD6C6BD00600D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FF48FE1FD6C6BD00600D21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54FF49001FD6C6BD00600D21 /* YZAudioConverter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YZAudioConverter.entitlements; sourceTree = "<group>"; };
+		54FF49051FD6C6BD00600D21 /* YZAudioConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZAudioConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FF49091FD6C6BD00600D21 /* YZAudioConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZAudioConverterTests.m; sourceTree = "<group>"; };
+		54FF490B1FD6C6BD00600D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FF49101FD6C6BD00600D21 /* YZAudioConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZAudioConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FF49141FD6C6BD00600D21 /* YZAudioConverterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZAudioConverterUITests.m; sourceTree = "<group>"; };
+		54FF49161FD6C6BD00600D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54FF48EC1FD6C6BD00600D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FF49021FD6C6BD00600D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FF490D1FD6C6BD00600D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54FF48E61FD6C6BD00600D21 = {
+			isa = PBXGroup;
+			children = (
+				54FF48F11FD6C6BD00600D21 /* YZAudioConverter */,
+				54FF49081FD6C6BD00600D21 /* YZAudioConverterTests */,
+				54FF49131FD6C6BD00600D21 /* YZAudioConverterUITests */,
+				54FF48F01FD6C6BD00600D21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54FF48F01FD6C6BD00600D21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54FF48EF1FD6C6BD00600D21 /* YZAudioConverter.app */,
+				54FF49051FD6C6BD00600D21 /* YZAudioConverterTests.xctest */,
+				54FF49101FD6C6BD00600D21 /* YZAudioConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54FF48F11FD6C6BD00600D21 /* YZAudioConverter */ = {
+			isa = PBXGroup;
+			children = (
+				54FF48F21FD6C6BD00600D21 /* AppDelegate.h */,
+				54FF48F31FD6C6BD00600D21 /* AppDelegate.m */,
+				54FF48F51FD6C6BD00600D21 /* ViewController.h */,
+				54FF48F61FD6C6BD00600D21 /* ViewController.m */,
+				54FF48F81FD6C6BD00600D21 /* Assets.xcassets */,
+				54FF48FA1FD6C6BD00600D21 /* Main.storyboard */,
+				54FF48FD1FD6C6BD00600D21 /* Info.plist */,
+				54FF48FE1FD6C6BD00600D21 /* main.m */,
+				54FF49001FD6C6BD00600D21 /* YZAudioConverter.entitlements */,
+			);
+			path = YZAudioConverter;
+			sourceTree = "<group>";
+		};
+		54FF49081FD6C6BD00600D21 /* YZAudioConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				54FF49091FD6C6BD00600D21 /* YZAudioConverterTests.m */,
+				54FF490B1FD6C6BD00600D21 /* Info.plist */,
+			);
+			path = YZAudioConverterTests;
+			sourceTree = "<group>";
+		};
+		54FF49131FD6C6BD00600D21 /* YZAudioConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54FF49141FD6C6BD00600D21 /* YZAudioConverterUITests.m */,
+				54FF49161FD6C6BD00600D21 /* Info.plist */,
+			);
+			path = YZAudioConverterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54FF48EE1FD6C6BD00600D21 /* YZAudioConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FF49191FD6C6BD00600D21 /* Build configuration list for PBXNativeTarget "YZAudioConverter" */;
+			buildPhases = (
+				54FF48EB1FD6C6BD00600D21 /* Sources */,
+				54FF48EC1FD6C6BD00600D21 /* Frameworks */,
+				54FF48ED1FD6C6BD00600D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZAudioConverter;
+			productName = YZAudioConverter;
+			productReference = 54FF48EF1FD6C6BD00600D21 /* YZAudioConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54FF49041FD6C6BD00600D21 /* YZAudioConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FF491C1FD6C6BD00600D21 /* Build configuration list for PBXNativeTarget "YZAudioConverterTests" */;
+			buildPhases = (
+				54FF49011FD6C6BD00600D21 /* Sources */,
+				54FF49021FD6C6BD00600D21 /* Frameworks */,
+				54FF49031FD6C6BD00600D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54FF49071FD6C6BD00600D21 /* PBXTargetDependency */,
+			);
+			name = YZAudioConverterTests;
+			productName = YZAudioConverterTests;
+			productReference = 54FF49051FD6C6BD00600D21 /* YZAudioConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54FF490F1FD6C6BD00600D21 /* YZAudioConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FF491F1FD6C6BD00600D21 /* Build configuration list for PBXNativeTarget "YZAudioConverterUITests" */;
+			buildPhases = (
+				54FF490C1FD6C6BD00600D21 /* Sources */,
+				54FF490D1FD6C6BD00600D21 /* Frameworks */,
+				54FF490E1FD6C6BD00600D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54FF49121FD6C6BD00600D21 /* PBXTargetDependency */,
+			);
+			name = YZAudioConverterUITests;
+			productName = YZAudioConverterUITests;
+			productReference = 54FF49101FD6C6BD00600D21 /* YZAudioConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54FF48E71FD6C6BD00600D21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Shin;
+				TargetAttributes = {
+					54FF48EE1FD6C6BD00600D21 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					54FF49041FD6C6BD00600D21 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54FF48EE1FD6C6BD00600D21;
+					};
+					54FF490F1FD6C6BD00600D21 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54FF48EE1FD6C6BD00600D21;
+					};
+				};
+			};
+			buildConfigurationList = 54FF48EA1FD6C6BD00600D21 /* Build configuration list for PBXProject "YZAudioConverter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54FF48E61FD6C6BD00600D21;
+			productRefGroup = 54FF48F01FD6C6BD00600D21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54FF48EE1FD6C6BD00600D21 /* YZAudioConverter */,
+				54FF49041FD6C6BD00600D21 /* YZAudioConverterTests */,
+				54FF490F1FD6C6BD00600D21 /* YZAudioConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54FF48ED1FD6C6BD00600D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FF48F91FD6C6BD00600D21 /* Assets.xcassets in Resources */,
+				54FF48FC1FD6C6BD00600D21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FF49031FD6C6BD00600D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FF490E1FD6C6BD00600D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54FF48EB1FD6C6BD00600D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FF48F71FD6C6BD00600D21 /* ViewController.m in Sources */,
+				54FF48FF1FD6C6BD00600D21 /* main.m in Sources */,
+				54FF48F41FD6C6BD00600D21 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FF49011FD6C6BD00600D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FF490A1FD6C6BD00600D21 /* YZAudioConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FF490C1FD6C6BD00600D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FF49151FD6C6BD00600D21 /* YZAudioConverterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54FF49071FD6C6BD00600D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54FF48EE1FD6C6BD00600D21 /* YZAudioConverter */;
+			targetProxy = 54FF49061FD6C6BD00600D21 /* PBXContainerItemProxy */;
+		};
+		54FF49121FD6C6BD00600D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54FF48EE1FD6C6BD00600D21 /* YZAudioConverter */;
+			targetProxy = 54FF49111FD6C6BD00600D21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54FF48FA1FD6C6BD00600D21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54FF48FB1FD6C6BD00600D21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54FF49171FD6C6BD00600D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		54FF49181FD6C6BD00600D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		54FF491A1FD6C6BD00600D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YZAudioConverter/YZAudioConverter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZAudioConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZAudioConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54FF491B1FD6C6BD00600D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YZAudioConverter/YZAudioConverter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZAudioConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZAudioConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54FF491D1FD6C6BD00600D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZAudioConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZAudioConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZAudioConverter.app/Contents/MacOS/YZAudioConverter";
+			};
+			name = Debug;
+		};
+		54FF491E1FD6C6BD00600D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZAudioConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZAudioConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZAudioConverter.app/Contents/MacOS/YZAudioConverter";
+			};
+			name = Release;
+		};
+		54FF49201FD6C6BD00600D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZAudioConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZAudioConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YZAudioConverter;
+			};
+			name = Debug;
+		};
+		54FF49211FD6C6BD00600D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5DVPT5R6X2;
+				INFOPLIST_FILE = YZAudioConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Shin.YZAudioConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YZAudioConverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54FF48EA1FD6C6BD00600D21 /* Build configuration list for PBXProject "YZAudioConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FF49171FD6C6BD00600D21 /* Debug */,
+				54FF49181FD6C6BD00600D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FF49191FD6C6BD00600D21 /* Build configuration list for PBXNativeTarget "YZAudioConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FF491A1FD6C6BD00600D21 /* Debug */,
+				54FF491B1FD6C6BD00600D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FF491C1FD6C6BD00600D21 /* Build configuration list for PBXNativeTarget "YZAudioConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FF491D1FD6C6BD00600D21 /* Debug */,
+				54FF491E1FD6C6BD00600D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FF491F1FD6C6BD00600D21 /* Build configuration list for PBXNativeTarget "YZAudioConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FF49201FD6C6BD00600D21 /* Debug */,
+				54FF49211FD6C6BD00600D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54FF48E71FD6C6BD00600D21 /* Project object */;
+}
